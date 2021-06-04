@@ -1,0 +1,14 @@
+span {
+  border: 1px solid black;
+  background-color: lime;
+}
+
+/*
+ * give a fallback value for old browsers
+ */
+.box {
+  border: 1px solid black;
+  height:100px;
+  width: 500px;
+  width: calc(100% - 50px);
+}

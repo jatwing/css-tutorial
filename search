@@ -1,0 +1,9 @@
+#!/bin/sh
+if [ -z $1 ]; then
+  exit 1
+fi
+
+browser="Firefox Developer Edition"
+url="https://developer.mozilla.org/en-US/search?q="
+
+open -a "$browser" "$url$1"

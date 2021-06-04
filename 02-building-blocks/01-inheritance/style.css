@@ -1,0 +1,64 @@
+
+
+/*
+ * inheritance
+ */
+
+body {
+  color: blue;
+}
+
+span {
+  color: black;
+}
+
+.main {
+  color: rebeccapurple;
+  border: 2px solid #cccccc;
+  padding: 1em;
+}
+
+.special {
+  color: black;
+  font-weight: bold;
+}
+
+/*
+ * controlling inheritance
+ */
+
+.my-class-0 {
+  color: green;
+}
+
+.my-class-1 a {
+  color: inherit
+}
+
+.my-class-2 a {
+  color: initial;
+}
+
+
+.my-class-3 a {
+  color: unset;
+}
+
+a {
+  color: red;
+}
+
+/*
+ * resetting all property values
+ */
+
+blockquote {
+  background-color: red;
+  border: 2px solid green;
+}
+
+.fix-this {
+  all: unset;
+}
+
+

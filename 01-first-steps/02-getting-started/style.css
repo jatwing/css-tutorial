@@ -1,0 +1,62 @@
+h1 {
+  color: red;
+  font-size: 5em;
+}
+
+p, li {
+  color: green;
+  list-style-type: square;
+}
+
+.special {
+  color: orange;
+}
+
+li.special {
+  font-weight: bold;
+}
+
+/*
+ * styling things based on their location in a document
+ */
+li em {
+  color: rebeccapurple
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+/*
+ * styling things based on state
+ */
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*
+ * combining selectors and combinators
+ */
+
+body h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+

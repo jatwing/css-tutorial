@@ -1,0 +1,37 @@
+/*
+ * descendant combinator
+ */
+.box p {
+  color: red
+}
+
+/*
+ * child combinator
+ */
+
+ul > li {
+  border-top: 5px solid red;
+}
+
+/*
+ * adjacent sibling combinator
+ */
+
+h1 + p {
+     font-weight: bold;
+    background-color: #333333;
+    color: #ffffff;
+    padding: .5em;
+}
+
+/*
+ * general sibling combinator
+ */
+
+
+h1 ~ p {
+  color: green;
+}
+
+
+

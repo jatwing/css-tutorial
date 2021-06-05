@@ -1,0 +1,45 @@
+/*
+ * presence and value selectors
+ */
+li[class] {
+  border-bottom: 1px solid black;
+}
+
+li[class="a"] {
+  background-color: yellow;
+}
+
+li[class~="a"] {
+  color: red;
+}
+
+/*
+ * substring matching selectors
+ */
+
+li[class^="c"] {
+    font-size: 200%;
+}
+
+li[class$="c"] {
+    background-color: yellow;
+}
+
+li[class*="c"] {
+    color: red;
+}
+   
+/*
+ * case insensitivity
+ */
+li[class^="f"] {
+  background-color: yellow;
+}
+
+li[class^="f" i] {
+  color: red;
+}
+
+
+
+

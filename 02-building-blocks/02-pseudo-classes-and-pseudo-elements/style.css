@@ -1,0 +1,54 @@
+/*
+ * simple pseudo-class
+ */
+article p:first-child {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+/*
+ * user-action pseudo classes
+ */
+a:link,
+a:visited {
+  color: rebeccapurple;
+  font-weight: bold;
+}
+a:hover {
+  color: hotpink;
+}
+
+/*
+ * pseudo-element
+ */
+
+article p::first-line {
+  background-color: yellow;
+}
+
+/*
+ * combining pseudo-classes and pseudo-elements
+ */
+article p:first-child::first-line {
+  text-decoration: underline;
+}
+
+/*
+ * generating content with ::before and ::after
+ */
+.box1::before {
+  content: 'This should show before the other content. ';
+}
+
+.box2::after {
+  content: ' ➥';
+}
+
+.box3::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  border: 1px solid black;
+}

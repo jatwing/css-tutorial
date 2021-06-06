@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="big-box bg-color1">
+      <h2>Background Colors</h2>
+      <p>Try changing the background <span>colors</span>.</p>
+    </div>
+
+    <div class="flex">
+      <div class="small-box bg-image1"></div>
+      <div class="small-box bg-image2"></div>
+    </div>
+
+    <div class="big-box bg-image3"></div>
+    <div class="big-box bg-image4"></div>
+
+    <div class="flex">
+      <div class="small-box bg-gradient1"></div>
+      <div class="small-box bg-gradient2"></div>
+    </div>
+
+    <div class="big-box bg-multiple"></div>
+
+    <h1>Background attachment example</h1>
+
+    <section>
+      <article class="scroll">
+        <p class="p-attachment">
+          <code>background-attachment: scroll</code> causes the element's
+          background to be fixed to the page, so that it scrolls when the page
+          is scrolled. If the element content is scrolled, the background does
+          not move.
+        </p>
+
+        <pre></pre>
+      </article>
+
+      <article class="fixed">
+        <p class="p-attachment">
+          <code>background-attachment: fixed</code> causes an element's
+          background to be fixed to the viewport, so that it doesn't scroll when
+          the page or element content is scrolled. It will always remain in the
+          same position on the screen.
+        </p>
+
+        <pre></pre>
+      </article>
+
+      <article class="local">
+        <p class="p-attachment">
+          <code>background-attachment: local</code>, new to CSS3, causes an
+          element's background to be fixed to the actual element itself. So When
+          the page is scrolled, the element's background will move along with it
+          only if the element does so (so not in the case of elements with
+          <code>position: fixed</code>.) When the element's content is scrolled,
+          the background will scroll along with it.
+        </p>
+
+        <pre></pre>
+      </article>
+    </section>
+
+    <div class="big-box bg-shorthand"></div>
+  </body>
+</html>

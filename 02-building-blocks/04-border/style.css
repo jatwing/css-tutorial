@@ -1,0 +1,39 @@
+.big-box {
+  width: 400px;
+  height: 200px;
+  padding: 0.5em;
+  margin: 20px;
+}
+
+.border1 {
+  border: 5px solid #0b385f;
+  border-bottom-style: dashed;
+  color: #ffffff;
+
+  background-color: #567895;
+}
+
+.border2 {
+  border-top: 2px dotted rebeccapurple;
+  border-bottom: 1em double rgb(24, 163, 78);
+}
+
+.border3 {
+  border-top: 0;
+  border-right: thin solid #ff0000;
+  border-bottom: medium dashed #00ff00;
+  border-left: thick groove #0000ff;
+}
+
+/*
+ * rounded corner
+ */
+
+.border4 {
+  border: 10px solid rebeccapurple;
+  border-radius: 1em;
+  border-top-right-radius: 10% 30%;
+}
+
+
+

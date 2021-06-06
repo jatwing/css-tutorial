@@ -1,0 +1,147 @@
+.flex {
+  display: flex;
+}
+
+.big-box {
+  width: 400px;
+  height: 200px;
+  padding: 0.5em;
+  border: 1px solid #cccccc;
+  margin: 20px;
+}
+
+.small-box {
+  width: 200px;
+  height: 100px;
+  padding: 0.5em;
+  border: 1px solid #cccccc;
+  margin: 20px;
+}
+
+/*
+ * background color
+ */
+
+.bg-color1 {
+  background-color: #567895;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+}
+
+span {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*
+ * background image
+ */
+.bg-image1 {
+  background-image: url(balloons.jpg);
+  background-color: #000000;
+}
+
+.bg-image2 {
+  background-image: url(star.png);
+  background-color: #000000;
+  background-repeat: repeat;
+}
+
+.bg-image3 {
+  background-image: url(balloons.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bg-image4 {
+  background-image: url(star.png);
+  background-repeat: no-repeat;
+  background-position: top 20px right 10px;
+}
+
+/*
+ * gradient background
+ */
+.bg-gradient1 {
+  background-image: linear-gradient(
+    105deg,
+    rgba(0, 249, 255, 1) 39%,
+    rgba(51, 56, 57, 1) 96%
+  );
+}
+
+.bg-gradient2 {
+  background-image: radial-gradient(
+    circle,
+    rgba(0, 249, 255, 1) 39%,
+    rgba(51, 56, 57, 1) 96%
+  );
+  background-size: 100px 50px;
+}
+
+/*
+ * multiple background images
+ */
+.bg-multiple {
+  background-image: url(star.png), url(big-star.png);
+  background-repeat: repeat-y, repeat;
+  background-position: top right, top left;
+}
+
+/*
+ * background attachment
+ */
+.p-attachment {
+  padding: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(bgtile.png);
+  padding: 1%;
+  overflow: auto;
+}
+
+article pre {
+  height: 800px;
+}
+
+.fixed,
+.scroll {
+  margin-right: 1%;
+}
+
+.fixed {
+  background-attachment: fixed;
+}
+
+.scroll {
+  background-attachment: scroll;
+}
+
+.local {
+  background-attachment: local;
+}
+
+/*
+ * background shorthand
+ */
+.bg-shorthand {
+  background: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, 0.2) 39%,
+        rgba(51, 56, 57, 1) 96%
+      )
+      center center / 400px 200px no-repeat,
+    url(big-star.png) center no-repeat, rebeccapurple;
+}

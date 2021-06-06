@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--
+      block
+    -->
+    <p>I am a paragraph. A short one.</p>
+    <ul class="ul-block">
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+    </ul>
+    <p>
+      I am another paragraph. Some of the
+      <span class="span-block">words</span> have been wrapped in a
+      <span>span element</span>.
+    </p>
+    <!--
+      inline
+    -->
+    <p>
+      I am a paragraph. Some of the
+      <span>words</span> have been wrapped in a <span>span element</span>.
+    </p>
+    <ul class="ul-inline">
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+    </ul>
+    <p class="p-inline">I am a paragraph. A short one.</p>
+    <p class="p-inline">I am another paragraph. Also a short one.</p>
+    <!--
+      the box model and inline boxes
+    -->
+    <p>
+      I am a paragraph and this is a
+      <span class="span-inline">span</span> inside that paragraph. A span is an
+      inline element and so does not respect width and height.
+    </p>
+
+    <p>
+      I am a paragraph and this is a
+      <span class="span-inline-block">span</span> inside that paragraph. A span
+      is an inline element and so does not respect width and height.
+    </p>
+
+    <nav>
+      <ul class="links-list">
+        <li><a href="">Link one</a></li>
+        <li><a href="">Link two</a></li>
+        <li><a href="">Link three</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

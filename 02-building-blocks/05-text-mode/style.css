@@ -1,0 +1,95 @@
+.flex {
+  display: flex;
+}
+
+.box {
+  border: 1px solid #cccccc;
+  padding: 0.5em;
+  margin: 10px;
+}
+
+/*
+ * writing mode
+ */
+h1 {
+  writing-mode: vertical-rl;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+}
+
+/*
+ * writing mode and block and inline layout
+ */
+
+.horizontal {
+  writing-mode: horizontal-tb;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+}
+
+/*
+ * logical properties and values
+ */
+.width {
+  width: 200px;
+}
+
+.inline-size {
+  inline-size: 200px;
+}
+
+/*
+ * logical margin, border, and padding properties
+ */
+.logical {
+  margin-block-start: 20px;
+  padding-inline-end: 2em;
+  padding-block-start: 2px;
+  border-block-start: 5px solid pink;
+  border-inline-end: 10px dotted rebeccapurple;
+  border-block-end: 1em double orange;
+  border-inline-start: 1px solid black;
+}
+
+.physical {
+  margin-top: 20px;
+  padding-right: 2em;
+  padding-top: 2px;
+  border-top: 5px solid pink;
+  border-right: 10px dotted rebeccapurple;
+  border-bottom: 1em double orange;
+  border-left: 1px solid black;
+}
+
+h2 {
+  border-block-end: 5px solid black;
+}
+
+/*
+ * physical values and  logical values
+ */
+.img-horizontal-physical {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.img-vertical-physical {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.img-logical {
+  float: inline-start;
+  margin-inline-end: 20px;
+  margin-block-end: 20px;
+}
+
+.height {
+  height: 200px;
+}
+

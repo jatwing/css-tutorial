@@ -1,0 +1,59 @@
+/* || coding style guide  */
+
+/* || keep it consistent */
+
+/* || formatting readable css */
+
+/* || comment   */
+
+/* || avoid overly-specific selectors  */
+
+/* || break large stylesheets into multiple smaller ones  */
+
+/* || object oriented css  */
+
+
+.comment {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.comment img {
+  border: 1px solid grey;
+}
+
+.comment .content {
+  font-size: .8rem;
+}
+
+.list-item {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border-bottom: 1px solid grey;
+}
+
+.list-item .content {
+  font-size: .8rem;
+}
+
+.media {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.media .content {
+  font-size: .8rem;
+}
+
+/* block element modifier  */
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--
+      intrinsic size of things
+    -->
+    <img src="star.png" alt="star" class="box" />
+
+    <div class="box"></div>
+
+    <!--
+      setting a specific size
+    -->
+
+    <div class="flex">
+      <div class="box small"></div>
+      <div class="box small font-x-large">
+        These boxes both have a height set, this box has content in it which
+        will need more space than the assigned height, and so we get overflow.
+      </div>
+    </div>
+
+    <div class="box width-half">I have a percentage width.</div>
+
+    <div class="box margin-padding">
+      I have margin and padding set to 10% on all sides.
+    </div>
+
+    <div class="flex">
+      <div class="box narrow min-height"></div>
+      <div class="box narrow min-height font-x-large">
+        These boxes both have a min-height set, this box has content in it which
+        will need more space than the assigned height, and so it grows from the
+        minimum.
+      </div>
+    </div>
+
+    <div class="flex">
+      <div class="box"><img src="star.png" alt="star" class="narrow" /></div>
+      <div class="box"><img src="star.png" alt="star" class="max-width" /></div>
+      <div class="box"><img src="star.png" alt="star" class="narrower" /></div>
+    </div>
+
+    <!--
+      viewport unit
+    -->
+    <div class="box viewport">A</div>
+  </body>
+</html>

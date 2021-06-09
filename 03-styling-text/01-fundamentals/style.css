@@ -1,0 +1,67 @@
+/*
+ * fonts
+ */
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 5rem;
+
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px red, 2px 2px 1px red;
+
+}
+
+p {
+  color: red;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 + p {
+  font-weight: bold;
+}
+
+/*
+ * default fonts
+ */
+
+.p--serif {
+  font-family: serif;
+}
+
+.p--sans {
+  font-family: sans-serif;
+}
+
+.p--monospace {
+  font-family: monospace;
+}
+
+.p--cursive {
+  font-family: cursive;
+}
+
+.p--fantasy {
+  font-family: fantasy;
+}
+
+/*
+ * text layout
+ */
+h1 {
+  text-align: center ;
+}
+
+p {
+  line-height: 1.6;
+}
+
+p::first-line {
+  letter-spacing: 4px;
+  word-spacing: 4px;
+}
+
+
+

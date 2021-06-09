@@ -1,0 +1,44 @@
+/* || create logical sections in your stylesheet */
+
+/* || GENERAL STYLES */
+
+body {
+}
+
+h1,
+h2,
+h3,
+h4 {
+}
+
+ul {
+}
+
+blockquote {
+}
+
+/* || UTILITIES */
+
+.nobullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* || SITEWIDE */
+
+.main-nav { }
+
+.logo {  }
+
+
+/* || STORE PAGES. broken down by context, page or even component    */
+
+.product-listing {  }
+
+.product-box {  }
+
+
+
+

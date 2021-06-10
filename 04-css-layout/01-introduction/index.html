@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting started with CSS</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--
+      normal flow
+    -->
+
+    <p>I love my cat.</p>
+
+    <ul>
+      <li>Buy cat food</li>
+      <li>Exercise</li>
+      <li>Cheer up friend</li>
+    </ul>
+
+    <p>The end!</p>
+
+    <!--
+      flexbox
+    -->
+    <div class="flex">
+      <div class="box box--low">One</div>
+      <div class="box box--low">Two</div>
+      <div class="box box--low">Three</div>
+    </div>
+
+    <!--
+      grid layout
+    -->
+    <div class="grid">
+      <div class="box grid-item1">One</div>
+      <div class="box grid-item2">Two</div>
+      <div class="box grid-item3">Three</div>
+    </div>
+
+    <!--
+      float
+    -->
+    <h1>Simple float example</h1>
+
+    <div class="box box--smaller float">Float</div>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus
+      aliquam dolor, eu lacinia lorem placerat vulputate. Duis felis orci,
+      pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet nunc,
+      at ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta.
+      Integer ligula ipsum, tristique sit amet orci vel, viverra egestas ligula.
+      Curabitur vehicula tellus neque, ac ornare ex malesuada et. In vitae
+      convallis lacus. Aliquam erat volutpat. Suspendisse ac imperdiet turpis.
+      Aenean finibus sollicitudin eros pharetra congue. Duis ornare egestas
+      augue ut luctus. Proin blandit quam nec lacus varius commodo et a urna. Ut
+      id ornare felis, eget fermentum sapien.
+    </p>
+
+    <!--
+      positioning technique
+    -->
+    <h1>Static positioning</h1>
+    <p class="box box--green">I am a basic block level element.</p>
+    <p class="box box--red">I am a basic block level element.</p>
+    <p class="box box--green">I am a basic block level element.</p>
+
+    <h1>Relative positioning</h1>
+    <p class="box box--green">I am a basic block level element.</p>
+    <p class="box box--red box--relative1">I am a basic block level element.</p>
+    <p class="box box--green">I am a basic block level element.</p>
+
+    <h1>Absolute positioning 1</h1>
+    <p class="box box--green">I am a basic block level element.</p>
+    <p class="box box--red box--absolute">I am a basic block level element. (absolute)</p>
+    <p class="box box--green">I am a basic block level element.</p>
+
+    <h1>Absolute positioning 2</h1>
+    <p class="box box--green">I am a basic block level element.</p>
+    <div class=" box--relative2">
+      <p class="box box--red box--absolute">
+        I am a basic block level element.
+      </p>
+    </div>
+    <p class="box box--green">I am a basic block level element.</p>
+
+    <h1>Fixed positioning</h1>
+
+    <p class="box box--green">I am a basic block level element.</p>
+    <p class="box box--red box--fixed">I am a basic block level element. (fixed)</p>
+    <p class="box box--green">I am a basic block level element.</p>
+
+
+
+    <h1>Sticky positioning</h1>
+
+    <p class="box box--green">I am a basic block level element.</p>
+    <p class="box box--red box--sticky">I am a basic block level element. (stick)</p>
+    <p class="box box--green">I am a basic block level element.</p>
+
+    <!--
+      table layout
+    -->
+    <form class="box box-large">
+      <p>First of all, tell us your name and age.</p>
+      <div>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" />
+      </div>
+      <div>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" />
+      </div>
+      <div>
+        <label for="age">Age:</label>
+        <input type="text" id="age" />
+      </div>
+    </form>
+
+    <!--
+      multi-column layout
+    -->
+
+    <div class="multi-column">
+      <h1>Multi-column layout</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus
+        aliquam dolor, eu lacinia lorem placerat vulputate. Duis felis orci,
+        pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet nunc,
+        at ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta.
+        Integer ligula ipsum, tristique sit amet orci vel, viverra egestas
+        ligula. Curabitur vehicula tellus neque, ac ornare ex malesuada et. In
+        vitae convallis lacus. Aliquam erat volutpat. Suspendisse ac imperdiet
+        turpis. Aenean finibus sollicitudin eros pharetra congue. Duis ornare
+        egestas augue ut luctus. Proin blandit quam nec lacus varius commodo et
+        a urna. Ut id ornare felis, eget fermentum sapien.
+      </p>
+      <p>
+        Nam vulputate diam nec tempor bibendum. Donec luctus augue eget
+        malesuada ultrices. Phasellus turpis est, posuere sit amet dapibus ut,
+        facilisis sed est. Nam id risus quis ante semper consectetur eget
+        aliquam lorem. Vivamus tristique elit dolor, sed pretium metus suscipit
+        vel. Mauris ultricies lectus sed lobortis finibus. Vivamus eu urna eget
+        velit cursus viverra quis vestibulum sem. Aliquam tincidunt eget purus
+        in interdum. Cum sociis natoque penatibus et magnis dis parturient
+        montes, nascetur ridiculus mus.
+      </p>
+      <p></p>
+    </div>
+
+    <div class="high-vh"></div>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+body {
+  width: 500px;
+  height: 1400px;
+  margin: 0 auto;
+}
+
+p {
+  background: aqua;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background: red;
+  border: 1px solid black;
+}
+
+.bg-yellow {
+  background: yellow;
+}
+
+/*
+ * static positioning, default
+ */
+
+.static {
+  position: static
+}
+
+/*
+ * relative positioning
+ */
+.relative {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+/*
+ * absolute positioning
+ * positioning contexts
+ */
+body {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+/*
+ * z-index
+ */
+.z-index {
+  z-index: -1;
+}
+
+/*
+ * fixed positioning
+ */
+.fixed {
+  position: fixed;
+  top: 32px;
+  left: 32px;
+  width: 500px;
+  margin-top: 0;
+  padding: 10px;
+}
+

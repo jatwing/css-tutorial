@@ -1,0 +1,50 @@
+body {
+  width: 500px;
+  height: 1400px;
+  margin: 0 auto;
+}
+
+p {
+  background: aqua;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background: red;
+  border: 1px solid black;
+}
+
+.bg-yellow {
+  background: yellow;
+}
+
+/*
+ * sticky positioning
+ */
+.sticky {
+  position: sticky;
+  top: 32px;
+  left: 32px;
+}
+
+.height {
+  height: 100vh
+}
+
+/*
+ * an interesting use of position sticky
+ */
+dt {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 1em 0;
+}
+
+
+

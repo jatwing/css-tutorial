@@ -1,0 +1,49 @@
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 2em auto;
+  font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+/*
+ * a basic example
+ */
+
+/*
+ * styling the columns
+ */
+
+.column-count {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px dotted rgb(79, 185, 227);
+}
+
+.column-width {
+  column-width: 200px;
+  column-gap: 20px;
+}
+
+.column-span {
+  column-span: all;
+  background-color: rgb(79, 185, 227);
+  color: white;
+  padding: 0.5em;
+}
+
+/*
+ * columns and fragmentation
+ */
+.container {
+  column-width: 250px;
+  column-gap: 20px;
+}
+
+.card {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+  padding: 10px;
+  margin: 0 0 1em 0;
+}

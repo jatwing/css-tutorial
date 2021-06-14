@@ -54,13 +54,13 @@ footer {
  * general text styling
  */
 html {
-  font-family: "ABeeZee", sans-serif;
+  font-family: 'ABeeZee', sans-serif;
   font-size: 10px;
 }
 
 h1,
 h2 {
-  font-family: "Abhaya Libre", serif;
+  font-family: 'Abhaya Libre', serif;
   letter-spacing: 2px;
 }
 
@@ -110,9 +110,9 @@ a:active {
   color: red;
 }
 
-a[href*="http"] {
+a[href*='http'] {
   padding-right: 19px;
-  background-image: url("external-link-52.png");
+  background-image: url('external-link-52.png');
   background-position: 100% 0;
   background-size: 16px 16px;
   background-repeat: no-repeat;
@@ -126,7 +126,6 @@ nav li {
   margin-bottom: 2rem;
 }
 
-
 nav li a {
   display: inline-block;
   text-decoration: none;
@@ -136,8 +135,7 @@ nav li a {
   border: 1px solid #aa6666;
 }
 
-nav  li:hover a {
+nav li:hover a {
   color: #ffffff;
   background-color: #aa6666;
 }
-

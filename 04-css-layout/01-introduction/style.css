@@ -27,7 +27,6 @@ body {
   height: 128px;
 }
 
-
 .box--green {
   background: rgb(207, 232, 220);
 }
@@ -106,7 +105,6 @@ body {
   position: relative;
 }
 
-
 .box--absolute {
   position: absolute;
   top: 32px;
@@ -123,7 +121,6 @@ body {
   position: sticky;
   top: 32px;
   left: 32px;
-
 }
 
 /*
@@ -139,7 +136,8 @@ form div {
   display: table-row;
 }
 
-form label, form input {
+form label,
+form input {
   display: table-cell;
   margin-bottom: 10px;
 }
@@ -165,9 +163,6 @@ form p {
 /*
  * multi-column layout
  */
-   .multi-column {
-     column-count: 3;
-
-
-    }
-
+.multi-column {
+  column-count: 3;
+}

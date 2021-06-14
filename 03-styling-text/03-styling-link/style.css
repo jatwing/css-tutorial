@@ -45,15 +45,13 @@ a:active {
 /*
  * including icons on links
  */
-a[href*="http"] {
+a[href*='http'] {
   /* note that the background-origin is padding-box (default) */
-  background: url("external-link-52.png") no-repeat 100% 0;
+  background: url('external-link-52.png') no-repeat 100% 0;
   background-size: 16px 16px;
   padding-right: 19px;
 }
 
-a[href*="http"]:active {
+a[href*='http']:active {
   background-color: #265301;
 }
-
-

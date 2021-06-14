@@ -10,7 +10,7 @@ strong {
 }
 
 em {
-  color: rebeccapurple
+  color: rebeccapurple;
 }
 
 /*
@@ -31,7 +31,6 @@ article *:first-child {
 /*
  * class selectors
  */
-
 
 .highlight {
   background-color: yellow;
@@ -70,9 +69,3 @@ h1.highlight {
 h1#heading {
   color: rebeccapurple;
 }
-
-
-
-
-
-

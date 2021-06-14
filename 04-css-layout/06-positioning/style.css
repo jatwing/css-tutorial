@@ -25,7 +25,7 @@ span {
  */
 
 .static {
-  position: static
+  position: static;
 }
 
 /*
@@ -69,4 +69,3 @@ body {
   margin-top: 0;
   padding: 10px;
 }
-

@@ -80,8 +80,6 @@ main {
   grid-gap: 1em;
 }
 
-
-
 @media screen and (min-width: 40em) {
   header {
     display: flex;

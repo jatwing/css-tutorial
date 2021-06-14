@@ -8,7 +8,7 @@ span {
  */
 .box {
   border: 1px solid black;
-  height:100px;
+  height: 100px;
   width: 500px;
   width: calc(100% - 50px);
 }

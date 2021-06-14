@@ -30,7 +30,7 @@ span {
 }
 
 .height {
-  height: 100vh
+  height: 100vh;
 }
 
 /*
@@ -45,6 +45,3 @@ dt {
   left: 0;
   margin: 1em 0;
 }
-
-
-

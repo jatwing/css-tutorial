@@ -5,11 +5,11 @@ li[class] {
   border-bottom: 1px solid black;
 }
 
-li[class="a"] {
+li[class='a'] {
   background-color: yellow;
 }
 
-li[class~="a"] {
+li[class~='a'] {
   color: red;
 }
 
@@ -17,29 +17,25 @@ li[class~="a"] {
  * substring matching selectors
  */
 
-li[class^="c"] {
-    font-size: 200%;
+li[class^='c'] {
+  font-size: 200%;
 }
 
-li[class$="c"] {
-    background-color: yellow;
-}
-
-li[class*="c"] {
-    color: red;
-}
-   
-/*
- * case insensitivity
- */
-li[class^="f"] {
+li[class$='c'] {
   background-color: yellow;
 }
 
-li[class^="f" i] {
+li[class*='c'] {
   color: red;
 }
 
+/*
+ * case insensitivity
+ */
+li[class^='f'] {
+  background-color: yellow;
+}
 
-
-
+li[class^='f' i] {
+  color: red;
+}

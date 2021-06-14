@@ -55,7 +55,7 @@ article {
   }
 
   nav li {
-    flex: 1
+    flex: 1;
   }
 
   article {
@@ -81,9 +81,3 @@ article {
     margin-top: 2em;
   }
 }
-
-
-
-
-
-

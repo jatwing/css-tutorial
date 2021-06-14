@@ -2,7 +2,7 @@
  * descendant combinator
  */
 .box p {
-  color: red
+  color: red;
 }
 
 /*
@@ -18,20 +18,16 @@ ul > li {
  */
 
 h1 + p {
-     font-weight: bold;
-    background-color: #333333;
-    color: #ffffff;
-    padding: .5em;
+  font-weight: bold;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 0.5em;
 }
 
 /*
  * general sibling combinator
  */
 
-
 h1 ~ p {
   color: green;
 }
-
-
-

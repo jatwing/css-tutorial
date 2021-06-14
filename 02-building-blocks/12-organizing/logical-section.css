@@ -25,20 +25,18 @@ blockquote {
   padding: 0;
 }
 
-
 /* || SITEWIDE */
 
-.main-nav { }
+.main-nav {
+}
 
-.logo {  }
-
+.logo {
+}
 
 /* || STORE PAGES. broken down by context, page or even component    */
 
-.product-listing {  }
+.product-listing {
+}
 
-.product-box {  }
-
-
-
-
+.product-box {
+}

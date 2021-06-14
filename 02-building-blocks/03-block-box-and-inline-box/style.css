@@ -55,7 +55,7 @@ li {
   border: 2px solid blue;
   display: inline-block;
 }
-    
+
 /*
  * inline block
  */
@@ -68,9 +68,8 @@ li {
   border: unset;
 }
 
-
 .links-list a {
-  background-color: rgb(179,57,81);
+  background-color: rgb(179, 57, 81);
   color: #fff;
   text-decoration: none;
   padding: 1em 2em;
@@ -81,4 +80,3 @@ li {
   background-color: rgb(66, 28, 40);
   color: #fff;
 }
-

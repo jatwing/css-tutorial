@@ -3,12 +3,10 @@
  * sass
  */
 
-
 /*
  * compiling component stylesheets
  */
 @use 'foundation';
-
 
 /*
  * defining variables 
@@ -19,7 +17,3 @@ $base-color: #c6538c;
 .alert {
   border: 1px solid $base-color;
 }
-
-
-
-

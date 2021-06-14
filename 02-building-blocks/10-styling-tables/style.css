@@ -35,12 +35,12 @@ td {
  */
 
 html {
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
 }
 
 thead th,
 tfoot th {
-  font-family: "Rock Salt", cursive;
+  font-family: 'Rock Salt', cursive;
 }
 
 th {
@@ -62,14 +62,21 @@ tfoot th {
 /*
  * graphics and colors
  */
-thead, tfoot {
+thead,
+tfoot {
   background: url(leopardskin.jpg);
   color: white;
   text-shadow: 1px 1px 1px black;
 }
 
-thead th, tfoot th, tfoot td {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+thead th,
+tfoot th,
+tfoot td {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)
+  );
   border: 3px solid purple;
 }
 
@@ -92,7 +99,6 @@ table {
   background-color: #ff33cc;
 }
 
-
 /*
  * styling the caption
  */
@@ -105,9 +111,3 @@ caption {
   text-align: right;
   letter-spacing: 1px;
 }
-
-
-
-
-
-

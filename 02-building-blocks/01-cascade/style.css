@@ -2,11 +2,11 @@
  * cascade
  */
 
-h1 { 
-    color: red; 
+h1 {
+  color: red;
 }
-h1 { 
-    color: blue; 
+h1 {
+  color: blue;
 }
 
 /*
@@ -15,101 +15,96 @@ h1 {
  * a class selector is more specific
  */
 .main-heading {
-  color: red
+  color: red;
 }
 
 h2 {
-  color: blue
+  color: blue;
 }
 
-
 h3 {
-    font-size: 2em;
-    color: #000000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  color: #000000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .small {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .bright {
-    color: rebeccapurple;
+  color: rebeccapurple;
 }
-
 
 /* specificity: 0101 */
 #outer a {
-    background-color: red;
+  background-color: red;
 }
-        
+
 /* specificity: 0201 */
 #outer #inner a {
-    background-color: blue;
+  background-color: blue;
 }
 
 /* specificity: 0104 */
 #outer div ul li a {
-    color: yellow;
+  color: yellow;
 }
 
 /* specificity: 0113 */
 #outer div ul .nav a {
-    color: white;
+  color: white;
 }
 
 /* specificity: 0024 */
 div div li:nth-child(2) a:hover {
-    border: 10px solid black;
+  border: 10px solid black;
 }
 
 /* specificity: 0023 */
 div li:nth-child(2) a:hover {
-    border: 10px dashed black;
+  border: 10px dashed black;
 }
 
 /* specificity: 0033 */
 div div .nav:nth-child(2) a:hover {
-    border: 10px double black;
+  border: 10px double black;
 }
 
 a {
-    display: inline-block;
-    line-height: 40px;
-    font-size: 20px;
-    text-decoration: none;
-    text-align: center;
-    width: 200px;
-    margin-bottom: 10px;
+  display: inline-block;
+  line-height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+  margin-bottom: 10px;
 }
 
 ul {
-    padding: 0;
+  padding: 0;
 }
 
 li {
-    list-style-type: none;
-}            
+  list-style-type: none;
+}
 
 /*
  * !important
  */
 
-
-
 #winning {
-    background-color: red;
-    border: 1px solid black;
+  background-color: red;
+  border: 1px solid black;
 }
-    
+
 .better {
-    background-color: gray;
-    border: none !important;
+  background-color: gray;
+  border: none !important;
 }
-    
+
 p {
-    background-color: blue;
-    color: white;
-    padding: 5px;
-}           
-    
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}

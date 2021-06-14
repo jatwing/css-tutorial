@@ -49,3 +49,37 @@ nav a {
 .feature {
   width: 200px;
 }
+
+/*
+ * the task
+ */
+@media screen and (min-width: 960px) {
+  nav {
+    position: sticky;
+    left: 0;
+    top: 0;
+  }
+
+  nav > ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2em;
+  }
+
+  article > img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+  }
+
+  aside > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+  }
+}

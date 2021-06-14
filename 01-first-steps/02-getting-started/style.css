@@ -3,7 +3,8 @@ h1 {
   font-size: 5em;
 }
 
-p, li {
+p,
+li {
   color: green;
   list-style-type: square;
 }
@@ -20,7 +21,7 @@ li.special {
  * styling things based on their location in a document
  */
 li em {
-  color: rebeccapurple
+  color: rebeccapurple;
 }
 
 h1 + p {
@@ -51,12 +52,3 @@ body h1 + p .special {
   background-color: black;
   padding: 5px;
 }
-
-
-
-
-
-
-
-
-

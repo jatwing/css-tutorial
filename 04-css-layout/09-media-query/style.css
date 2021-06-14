@@ -1,0 +1,76 @@
+html {
+  font-size: 1em;
+}
+
+/*
+ * @media media-type and (media-feature-rule)
+ */
+
+/*
+ * width and height
+ */
+
+@media screen and (width: 600px) {
+  body {
+    color: red;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    color: blue;
+  }
+}
+
+/*
+ * orientation
+ */
+@media screen and (orientation: landscape) {
+  body {
+    color: rebeccapurple;
+  }
+}
+
+@media screen and (hover: hover) {
+  .hover {
+    color: yellow;
+  }
+}
+
+/*
+ * more complex media queries
+ */
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  .and {
+    color: green;
+  }
+}
+
+@media screen and (min-width: 600px), screen and (orientation: landscape) {
+  .or {
+    color: gray;
+  }
+}
+
+@media not all and (orientation: landscape) {
+  .not {
+    color: darkcyan;
+  }
+}
+
+/*
+ * do you really need a media query
+ */
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.grid li {
+  border: 1px solid #666;
+  padding: 10px;
+}
